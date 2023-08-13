@@ -12,13 +12,12 @@ export function activate(context: ExtensionContext) {
     if (!editor) {
       return;
     }
-
     const selection = getSelectedText(editor);
 
     // Do something with the selected text range
     const text = editor.document.getText(selection);
     const hasComma = /,\s*[\)}]$/.test(text);
-    
+
     let widget = text;
     if (hasComma) {
       widget = text.replace(/,\s*\)$/, ')').replace(/,\s*}$/, '}');
