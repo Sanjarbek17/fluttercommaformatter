@@ -3,6 +3,11 @@
   "displayName": "FlutterCommaFormatter",
   "description": "\"Automatically format Flutter code by adding or removing commas.\"",
   "version": "0.0.1",
+  "publisher": "FlutterCommaAddOrRemove",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Sanjarbek17/fluttercommaformatter"
+  },
   "engines": {
     "vscode": "^1.54.0"
   },
