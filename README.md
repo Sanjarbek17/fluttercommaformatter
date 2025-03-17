@@ -23,8 +23,7 @@ This function helps you automatically remove or add commas and format your Flutt
 
 # Use the shortcut:
 
-* Windows: Ctrl + I
-* MacOS: Cmd + D
+* Ctrl + I
 
 The function will:
 
